@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方块大陆-我的世界私服</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">方块大陆-我的世界私服</div>
+            <div class="nav-links">
+                <a href="#about">关于我们</a>
+                <a href="#rules">服务器规则</a>
+                <a href="#join">加入我们</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="title-container">
+                <h1>欢迎来到方块大陆Minecraft服务器</h1>
+                <div class="title-bg"></div>
+            </div>
+            <p>体验终极Minecraft冒险之旅</p>
+            <a href="#join" class="cta-button">立即加入</a>
+        </div>
+    </div>
+
+    <main>
+        <section id="about" class="card">
+            <div class="card-content">
+                <h2>关于我们的服务器</h2>
+                <p>提供定制模组、生存模式、创造模式和精彩小游戏的高级Minecraft体验！</p>
+                <div class="server-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="player-count">0</span>
+                        <span class="stat-label">在线玩家</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1.20.4</span>
+                        <span class="stat-label">服务器版本</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="static/images/about.jpg" alt="Minecraft characters">
+            </div>
+        </section>
+
+        <section id="rules" class="card dark">
+            <h2 style="white-space: nowrap; margin: 0 3rem 0.5rem 3rem;">服务器规则</h2>
+            <div class="rules-grid" style="margin-top: 1rem;">
+                <div class="rule-item">
+                    <div class="rule-icon">👋</div>
+                    <h3>互相尊重</h3>
+                    <p>请尊重所有玩家和管理员</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-icon">🚫</div>
+                    <h3>禁止破坏</h3>
+                    <p>请尊重他人的建筑和财产</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-icon">⚖️</div>
+                    <h3>公平游戏</h3>
+                    <p>禁止使用作弊或外挂</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-icon">🎮</div>
+                    <h3>享受游戏</h3>
+                    <p>这才是我们在这里的目的！</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="card join-section">
+            <h2 style="white-space: nowrap; margin: 0 3rem 2rem 3rem;">准备好加入了吗?</h2>
+            <div class="join-content">
+                <div class="join-info">
+                    <h3>服务器信息</h3>
+                    <div class="server-info-grid">
+                        <span class="server-info-label">IP地址:</span>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <code id="server-ip" class="server-info-value">mc.example.com</code>
+                            <button id="copy-ip" class="modern-button" style="margin-top: 0;">复制IP</button>
+                        </div>
+                        
+                        <span class="server-info-label">状态:</span>
+                        <span id="server-status" class="online">在线</span>
+                    </div>
+                </div>
+                <div class="join-image">
+                    <img src="static/images/join.jpg" alt="Minecraft characters">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 我的世界私服 版权所有</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
